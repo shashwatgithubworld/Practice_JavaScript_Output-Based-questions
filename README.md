@@ -155,7 +155,7 @@ function Person(firstName, lastName) {
   this.lastName = lastName;
 }
 
-const member = new Person('Lydia', 'Hallie');
+const member = new Person('Shashwat', 'suraj');
 Person.getFullName = function() {
   return `${this.firstName} ${this.lastName}`;
 };
